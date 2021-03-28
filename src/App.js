@@ -20,7 +20,7 @@ import Propiedades from './components/Propiedades';
 // import Referencias from './components/Referencias'; 
 import Formularios from './components/Formularios'; 
 import Estilos from './components/Estilos'; 
-import CompoenentsEstilizados from './components/ComponentesEstilizados'; 
+import ComponentesEstilizados from './components/ComponentesEstilizados'; 
 
 import './App.css';
 function App() {
@@ -119,3 +119,4 @@ function App() {
 }
 
 export default App;
+

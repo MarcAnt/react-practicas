@@ -18,7 +18,7 @@ export default function ComponentesEstilizados() {
         }
     `; 
 
-    const myH3 = styled.h3`
+    const MyHThree = styled.h3`
         padding: 2rem;
         text-align: center; 
         color: ${(props) => props.color}; 
@@ -82,9 +82,9 @@ export default function ComponentesEstilizados() {
         <>
             <GlobalStyle />
             <h2>Styled Components</h2>
-            <myH3>Hola, soy un h3 estilizado con estyled-components</myH3>
-            <myH3 color="#666666" >Hola, soy un h3 estilizado con estyled-components</myH3>
-            <myH3 isButton >Hola, soy un h3 estilizado como botón</myH3>
+            <MyHThree>Hola, soy un h3 estilizado con estyled-components</MyHThree>
+            <MyHThree color="#666666" >Hola, soy un h3 estilizado con estyled-components</MyHThree>
+            <MyHThree isButton >Hola, soy un h3 estilizado como botón</MyHThree>
             <ThemeProvider theme={light}>
                 <Box>Soy una caja Light</Box>
                 <BoxRounded>Soy una caja redondeada Light</BoxRounded>
